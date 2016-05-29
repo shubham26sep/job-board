@@ -12,7 +12,7 @@ urlpatterns = [
 	url(r'^users/(?P<pk>\d+)/delete/$',views.UserDelete.as_view(), name='user_delete'),
 	url(r'^filter-candidates/$',views.CandidateFilter.as_view(), name='filter_candidates'),
 	url(r'^candidates/$',views.CandidateView.as_view(), name='candidate-list'),
-	url(r'^export-candidate-data/$', views.export_candidate_data, name='export-candidate-data'),
+	url(r'^export-candidate-data/$', views.export_candidate_data, name='export_candidate_data'),
 	url(r'^profile/$',views.UpdateProfile.as_view(), name='update-profile'),
 
 ]
