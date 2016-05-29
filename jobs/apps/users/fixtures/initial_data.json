@@ -1,786 +1,776 @@
 [
 {
-    "pk": 1,
     "fields": {
         "location": "Delhi/NCR"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 1
 },
 {
-    "pk": 2,
     "fields": {
         "location": "Delhi"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 2
 },
 {
-    "pk": 3,
     "fields": {
         "location": "Gurgaon"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 3
 },
 {
-    "pk": 4,
     "fields": {
         "location": "Bangalore"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 4
 },
 {
-    "pk": 5,
     "fields": {
         "location": "Hyderabad"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 5
 },
 {
-    "pk": 6,
     "fields": {
         "location": "Mumbai"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 6
 },
 {
-    "pk": 7,
     "fields": {
         "location": "Pune"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 7
 },
 {
-    "pk": 8,
     "fields": {
         "location": "Cochin"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 8
 },
 {
-    "pk": 9,
     "fields": {
         "location": "Chennai"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 9
 },
 {
-    "pk": 10,
     "fields": {
         "location": "Anywhere in North India"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 10
 },
 {
-    "pk": 11,
     "fields": {
         "location": "Anywhere in South India"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 11
 },
 {
-    "pk": 12,
     "fields": {
         "location": "India"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 12
 },
 {
-    "pk": 13,
     "fields": {
         "location": "Bengaluru"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 13
 },
 {
-    "pk": 14,
     "fields": {
         "location": "Vishakhapatnam"
     },
-    "model": "users.location"
+    "model": "users.location",
+    "pk": 14
 },
 {
-    "pk": 1,
     "fields": {
         "name": "MainFrames"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 1
 },
 {
-    "pk": 2,
     "fields": {
         "name": "JCL"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 2
 },
 {
-    "pk": 3,
     "fields": {
         "name": "Cobol"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 3
 },
 {
-    "pk": 4,
     "fields": {
         "name": "DB2"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 4
 },
 {
-    "pk": 5,
     "fields": {
         "name": "CICS"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 5
 },
 {
-    "pk": 6,
     "fields": {
         "name": "VSAM"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 6
 },
 {
-    "pk": 7,
     "fields": {
         "name": "WebSphere"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 7
 },
 {
-    "pk": 8,
     "fields": {
         "name": "HADOOP"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 8
 },
 {
-    "pk": 9,
     "fields": {
         "name": "HBASE"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 9
 },
 {
-    "pk": 10,
     "fields": {
         "name": "HIVE"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 10
 },
 {
-    "pk": 11,
     "fields": {
         "name": "Zookeeper"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 11
 },
 {
-    "pk": 12,
     "fields": {
         "name": "Sqoop"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 12
 },
 {
-    "pk": 13,
     "fields": {
         "name": "MapReduce"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 13
 },
 {
-    "pk": 14,
     "fields": {
         "name": "Had"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 14
 },
 {
-    "pk": 15,
     "fields": {
         "name": "ORACLE"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 15
 },
 {
-    "pk": 16,
     "fields": {
         "name": "NETEZZA"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 16
 },
 {
-    "pk": 17,
     "fields": {
         "name": "CEM"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 17
 },
 {
-    "pk": 18,
     "fields": {
         "name": "Presales"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 18
 },
 {
-    "pk": 19,
     "fields": {
         "name": "Technical Account Management"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 19
 },
 {
-    "pk": 20,
     "fields": {
         "name": "Solution Architect"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 20
 },
 {
-    "pk": 21,
     "fields": {
         "name": "LAN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 21
 },
 {
-    "pk": 22,
     "fields": {
         "name": "WAN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 22
 },
 {
-    "pk": 23,
     "fields": {
         "name": "VLAN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 23
 },
 {
-    "pk": 24,
     "fields": {
         "name": "PCRF"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 24
 },
 {
-    "pk": 25,
     "fields": {
         "name": "PCEF"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 25
 },
 {
-    "pk": 26,
     "fields": {
         "name": "IP Core Design"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 26
 },
 {
-    "pk": 27,
     "fields": {
         "name": "MPBN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 27
 },
 {
-    "pk": 28,
     "fields": {
         "name": "MPLS"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 28
 },
 {
-    "pk": 29,
     "fields": {
         "name": "VPN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 29
 },
 {
-    "pk": 30,
     "fields": {
         "name": "MGW"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 30
 },
 {
-    "pk": 31,
     "fields": {
         "name": "MSC"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 31
 },
 {
-    "pk": 32,
     "fields": {
         "name": "SGSN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 32
 },
 {
-    "pk": 33,
     "fields": {
         "name": "GGSN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 33
 },
 {
-    "pk": 34,
     "fields": {
         "name": "Router"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 34
 },
 {
-    "pk": 35,
     "fields": {
         "name": "Java"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 35
 },
 {
-    "pk": 36,
     "fields": {
         "name": "PHP"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 36
 },
 {
-    "pk": 37,
     "fields": {
         "name": "MySQL"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 37
 },
 {
-    "pk": 38,
     "fields": {
         "name": "C"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 38
 },
 {
-    "pk": 39,
     "fields": {
         "name": "C++"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 39
 },
 {
-    "pk": 40,
     "fields": {
         "name": "HTML"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 40
 },
 {
-    "pk": 41,
     "fields": {
         "name": "Python"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 41
 },
 {
-    "pk": 42,
     "fields": {
         "name": "Django"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 42
 },
 {
-    "pk": 43,
     "fields": {
         "name": "REST"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 43
 },
 {
-    "pk": 44,
     "fields": {
         "name": "Web Services"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 44
 },
 {
-    "pk": 45,
     "fields": {
         "name": "J2EE"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 45
 },
 {
-    "pk": 46,
     "fields": {
         "name": "GWT"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 46
 },
 {
-    "pk": 47,
     "fields": {
         "name": "C#"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 47
 },
 {
-    "pk": 48,
     "fields": {
         "name": "MongoDB"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 48
 },
 {
-    "pk": 49,
     "fields": {
         "name": "HLR"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 49
 },
 {
-    "pk": 50,
     "fields": {
         "name": "IP Routing"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 50
 },
 {
-    "pk": 51,
     "fields": {
         "name": "Switching"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 51
 },
 {
-    "pk": 52,
     "fields": {
         "name": "WLAN"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 52
 },
 {
-    "pk": 53,
     "fields": {
         "name": "802 11A"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 53
 },
 {
-    "pk": 54,
     "fields": {
         "name": "L3"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 54
 },
 {
-    "pk": 55,
     "fields": {
         "name": "ISIS"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 55
 },
 {
-    "pk": 56,
     "fields": {
         "name": "OSPF"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 56
 },
 {
-    "pk": 57,
     "fields": {
         "name": "HDFS"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 57
 },
 {
-    "pk": 58,
     "fields": {
         "name": "Zend Framework"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 58
 },
 {
-    "pk": 59,
     "fields": {
         "name": "jQuery"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 59
 },
 {
-    "pk": 60,
     "fields": {
         "name": "AJAX"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 60
 },
 {
-    "pk": 61,
     "fields": {
         "name": "OOPS"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 61
 },
 {
-    "pk": 62,
     "fields": {
         "name": "ASP.Net"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 62
 },
 {
-    "pk": 63,
     "fields": {
         "name": "MVC"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 63
 },
 {
-    "pk": 64,
     "fields": {
         "name": "WCF"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 64
 },
 {
-    "pk": 65,
     "fields": {
         "name": "SQL"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 65
 },
 {
-    "pk": 66,
     "fields": {
         "name": "Ado.net"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 66
 },
 {
-    "pk": 67,
     "fields": {
         "name": "SQL Server"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 67
 },
 {
-    "pk": 68,
     "fields": {
         "name": "PIG"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 68
 },
 {
-    "pk": 69,
     "fields": {
         "name": "JEE"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 69
 },
 {
-    "pk": 70,
     "fields": {
         "name": "Spring"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 70
 },
 {
-    "pk": 71,
     "fields": {
         "name": "Hibernate"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 71
 },
 {
-    "pk": 72,
     "fields": {
         "name": "JPA"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 72
 },
 {
-    "pk": 73,
     "fields": {
         "name": "Web Services"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 73
 },
 {
-    "pk": 74,
     "fields": {
         "name": "Telecom"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 74
 },
 {
-    "pk": 75,
     "fields": {
         "name": "S/W Product Development"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 75
 },
 {
-    "pk": 76,
     "fields": {
         "name": "Project Management"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 76
 },
 {
-    "pk": 77,
     "fields": {
         "name": "hbase"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 77
 },
 {
-    "pk": 78,
     "fields": {
         "name": "Core Java"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 78
 },
 {
-    "pk": 79,
     "fields": {
         "name": "Program Management"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 79
 },
 {
-    "pk": 80,
     "fields": {
         "name": "Financial Programming and Analysis"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 80
 },
 {
-    "pk": 81,
     "fields": {
         "name": "Budgeting"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 81
 },
 {
-    "pk": 82,
     "fields": {
         "name": "Corporate Strategy"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 82
 },
 {
-    "pk": 83,
     "fields": {
         "name": "Cognos BI"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 83
 },
 {
-    "pk": 84,
     "fields": {
         "name": "Report Studio"
     },
-    "model": "users.skill"
+    "model": "users.skill",
+    "pk": 84
 },
 {
-    "pk": 1,
     "fields": {
-        "is_active": true,
-        "ctc": null,
-        "current_designation": null,
-        "work_experience": null,
-        "current_location": null,
         "password": "pbkdf2_sha256$20000$zoheAE01LF5Y$4hP1TYvUJjyY9ospgRVs6QBy/iK/hxzauK5HZheJV7M=",
-        "user_permissions": [],
-        "corrected_location": null,
-        "nearest_city": null,
-        "ug_institute_name": null,
-        "pg_institute_name": null,
-        "preferred_location": [],
-        "email": "admin@mail.com",
         "groups": [],
-        "last_login": "2016-05-29T15:03:47.007Z",
-        "user_type": "recruiter",
-        "date_joined": "2016-05-27T18:00:06.513Z",
-        "skills": [],
-        "pg_tier1": false,
-        "ug_course": "none",
-        "current_employer": null,
-        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2016-05-29T18:36:37.190Z",
         "username": "admin",
-        "name": "admin",
-        "mobile_number": null,
-        "pg_course": "none",
-        "pg_passing_year": null,
-        "resume": false,
-        "ug_tier1": false,
-        "ug_passing_year": null,
-        "is_staff": true
-    },
-    "model": "users.user"
-},
-{
-    "pk": 2,
-    "fields": {
-        "is_active": true,
-        "ctc": null,
-        "current_designation": "",
-        "work_experience": null,
-        "current_location": null,
-        "password": "pbkdf2_sha256$20000$nAnRmtlETPPL$jTj3RgIwppboh7GLfiknnzti3r0iMjTNFNuogdQcp8Q=",
-        "user_permissions": [],
-        "corrected_location": null,
-        "nearest_city": null,
-        "ug_institute_name": "",
-        "pg_institute_name": "",
-        "preferred_location": [],
-        "email": "shubham@mail.com",
-        "groups": [],
-        "last_login": "2016-05-29T14:01:16.550Z",
-        "user_type": "recruiter",
-        "date_joined": "2016-05-29T09:39:26.140Z",
-        "skills": [],
-        "pg_tier1": false,
         "ug_course": "none",
-        "current_employer": "",
-        "is_superuser": false,
-        "username": "user2@mail.com",
-        "name": "Shubham Goyal",
-        "mobile_number": "1234567899",
+        "user_type": "recruiter",
+        "pg_tier1": false,
+        "current_location": null,
         "pg_course": "none",
-        "pg_passing_year": null,
+        "skills": [],
+        "ctc": null,
         "resume": false,
-        "ug_tier1": false,
+        "pg_institute_name": null,
+        "nearest_city": null,
+        "name": "admin",
+        "is_superuser": true,
+        "ug_institute_name": null,
+        "user_permissions": [],
+        "preferred_location": [],
         "ug_passing_year": null,
-        "is_staff": false
+        "mobile_number": null,
+        "email": "admin@mail.com",
+        "current_designation": null,
+        "current_employer": null,
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-27T18:00:06.513Z",
+        "corrected_location": null,
+        "work_experience": null,
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 1
 },
 {
-    "pk": 3,
     "fields": {
-        "is_active": true,
-        "ctc": "3.7",
-        "current_designation": "Computer Sciences Corporation",
-        "work_experience": "2.08",
-        "current_location": 5,
-        "password": "pbkdf2_sha256$20000$TR6Icv3by5aV$kV436MvZ9PgwB1w5DXwsjPYBP/2+kip727yQFnyg2z4=",
-        "user_permissions": [],
-        "corrected_location": 5,
-        "nearest_city": 5,
-        "ug_institute_name": "Osmania University",
-        "pg_institute_name": "",
-        "preferred_location": [
-            5
-        ],
-        "email": "contact@contact.com",
+        "password": "pbkdf2_sha256$20000$nAnRmtlETPPL$jTj3RgIwppboh7GLfiknnzti3r0iMjTNFNuogdQcp8Q=",
         "groups": [],
+        "is_staff": false,
+        "last_login": "2016-05-29T18:24:58.914Z",
+        "username": "user2@mail.com",
+        "ug_course": "none",
+        "user_type": "recruiter",
+        "pg_tier1": false,
+        "current_location": null,
+        "pg_course": "none",
+        "skills": [],
+        "ctc": null,
+        "resume": false,
+        "pg_institute_name": "",
+        "nearest_city": null,
+        "name": "Shubham Goyal",
+        "is_superuser": false,
+        "ug_institute_name": "",
+        "user_permissions": [],
+        "preferred_location": [],
+        "ug_passing_year": null,
+        "mobile_number": 1234567899,
+        "email": "shubham@mail.com",
+        "current_designation": "",
+        "current_employer": "",
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T09:39:26.140Z",
+        "corrected_location": null,
+        "work_experience": null,
+        "is_active": true
+    },
+    "model": "users.user",
+    "pk": 2
+},
+{
+    "fields": {
+        "password": "pbkdf2_sha256$20000$TR6Icv3by5aV$kV436MvZ9PgwB1w5DXwsjPYBP/2+kip727yQFnyg2z4=",
+        "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "contact@contact.com",
+        "ug_course": "B.Tech/B.E.",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T10:29:29.201Z",
+        "pg_tier1": false,
+        "current_location": 5,
+        "pg_course": "none",
         "skills": [
             2,
             3,
@@ -795,89 +785,88 @@
             12,
             13
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Tech/B.E.",
-        "current_employer": "Associate Application Developer",
-        "is_superuser": false,
-        "username": "contact@contact.com",
-        "name": "Name Surname",
-        "mobile_number": "1234567890",
-        "pg_course": "none",
-        "pg_passing_year": null,
+        "ctc": "3.7",
         "resume": false,
-        "ug_tier1": false,
+        "pg_institute_name": "",
+        "nearest_city": 5,
+        "name": "Name Surname",
+        "is_superuser": false,
+        "ug_institute_name": "Osmania University",
+        "user_permissions": [],
+        "preferred_location": [
+            5
+        ],
         "ug_passing_year": 2013,
-        "is_staff": false
+        "mobile_number": 1234567890,
+        "email": "contact@contact.com",
+        "current_designation": "Associate Application Developer",
+        "current_employer": "Computer Sciences Corporation",
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T10:29:29.201Z",
+        "corrected_location": 5,
+        "work_experience": "2.08",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 3
 },
 {
-    "pk": 4,
     "fields": {
-        "is_active": true,
-        "ctc": "4.5",
-        "current_designation": "Tata Consultancy Services (TCS)",
-        "work_experience": "2.58",
-        "current_location": 8,
         "password": "pbkdf2_sha256$20000$Gtr3BCASJbk7$pxbJP+lyR6gA/uImnr5eBJNNaZzaDTKuBBV62IaxSLA=",
-        "user_permissions": [],
-        "corrected_location": 8,
-        "nearest_city": 8,
-        "ug_institute_name": "MES KVM COLLEGE, valanchery",
-        "pg_institute_name": "MES College of Engineering, Kuttipuram",
-        "preferred_location": [
-            8
-        ],
-        "email": "contact@contact1.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "contact@contact1.com",
+        "ug_course": "B.Sc",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T10:33:41.952Z",
+        "pg_tier1": false,
+        "current_location": 8,
+        "pg_course": "M.C.A",
         "skills": [
             8,
             14,
             15,
             16
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Sc",
-        "current_employer": "System Engineer",
-        "is_superuser": false,
-        "username": "contact@contact1.com",
-        "name": "Name Middlename Surname",
-        "mobile_number": "1234567891",
-        "pg_course": "M.C.A",
-        "pg_passing_year": 2012,
+        "ctc": "4.5",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "MES College of Engineering, Kuttipuram",
+        "nearest_city": 8,
+        "name": "Name Middlename Surname",
+        "is_superuser": false,
+        "ug_institute_name": "MES KVM COLLEGE, valanchery",
+        "user_permissions": [],
+        "preferred_location": [
+            8
+        ],
         "ug_passing_year": 2008,
-        "is_staff": false
+        "mobile_number": 1234567891,
+        "email": "contact@contact1.com",
+        "current_designation": "System Engineer",
+        "current_employer": "Tata Consultancy Services (TCS)",
+        "pg_passing_year": 2012,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T10:33:41.952Z",
+        "corrected_location": 8,
+        "work_experience": "2.58",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 4
 },
 {
-    "pk": 5,
     "fields": {
-        "is_active": true,
-        "ctc": "24.5",
-        "current_designation": "Solution Architect/Technical Account Manager/TPM",
-        "work_experience": "14.00",
-        "current_location": 3,
         "password": "pbkdf2_sha256$20000$dv1AFVoEhoWz$wlDux1o44fXnkmyjqBdKXivGNfV0GQvXh+zs2P8IuhI=",
-        "user_permissions": [],
-        "corrected_location": 2,
-        "nearest_city": 2,
-        "ug_institute_name": "M.I.E.T",
-        "pg_institute_name": "MES College of Engineering, Kuttipuram",
-        "preferred_location": [
-            1,
-            3
-        ],
-        "email": "contact@contact2.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "contact@contact2.com",
+        "ug_course": "B.Tech/B.E.",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T10:38:20.969Z",
+        "pg_tier1": false,
+        "current_location": 3,
+        "pg_course": "M.C.A",
         "skills": [
             8,
             13,
@@ -908,44 +897,45 @@
             56,
             57
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Tech/B.E.",
-        "current_employer": "CELLOS India",
-        "is_superuser": false,
-        "username": "contact@contact2.com",
-        "name": "Name M Surname",
-        "mobile_number": "1234567892",
-        "pg_course": "M.C.A",
-        "pg_passing_year": 2012,
+        "ctc": "24.5",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "MES College of Engineering, Kuttipuram",
+        "nearest_city": 2,
+        "name": "Name M Surname",
+        "is_superuser": false,
+        "ug_institute_name": "M.I.E.T",
+        "user_permissions": [],
+        "preferred_location": [
+            1,
+            3
+        ],
         "ug_passing_year": 2001,
-        "is_staff": false
+        "mobile_number": 1234567892,
+        "email": "contact@contact2.com",
+        "current_designation": "Solution Architect/Technical Account Manager/TPM",
+        "current_employer": "CELLOS India",
+        "pg_passing_year": 2012,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T10:38:20.969Z",
+        "corrected_location": 2,
+        "work_experience": "14.00",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 5
 },
 {
-    "pk": 6,
     "fields": {
-        "is_active": true,
-        "ctc": "1.8",
-        "current_designation": "",
-        "work_experience": "3.00",
-        "current_location": 5,
         "password": "pbkdf2_sha256$20000$yk1kMNrqf2Ob$5nrcXdTPluHZYs4je5iJMzatEwewm1v7CtDkOEtG0rw=",
-        "user_permissions": [],
-        "corrected_location": 5,
-        "nearest_city": 5,
-        "ug_institute_name": "Jawaharlal Nehru Technological University (JNTU)",
-        "pg_institute_name": "",
-        "preferred_location": [
-            12
-        ],
-        "email": "user6@mail.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "user6@mail.com",
+        "ug_course": "B.Tech/B.E.",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T15:29:27.771Z",
+        "pg_tier1": false,
+        "current_location": 5,
+        "pg_course": "none",
         "skills": [
             36,
             37,
@@ -955,46 +945,44 @@
             60,
             61
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Tech/B.E.",
-        "current_employer": "",
-        "is_superuser": false,
-        "username": "user6@mail.com",
-        "name": "Name Middleman S",
-        "mobile_number": "1234567894",
-        "pg_course": "none",
-        "pg_passing_year": null,
+        "ctc": "1.8",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "",
+        "nearest_city": 5,
+        "name": "Name Middleman S",
+        "is_superuser": false,
+        "ug_institute_name": "Jawaharlal Nehru Technological University (JNTU)",
+        "user_permissions": [],
+        "preferred_location": [
+            12
+        ],
         "ug_passing_year": 2010,
-        "is_staff": false
+        "mobile_number": 1234567894,
+        "email": "user6@mail.com",
+        "current_designation": "",
+        "current_employer": "",
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T15:29:27.771Z",
+        "corrected_location": 5,
+        "work_experience": "3.00",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 6
 },
 {
-    "pk": 7,
     "fields": {
-        "is_active": true,
-        "ctc": "5.5",
-        "current_designation": "Senior Software Developer",
-        "work_experience": "5.08",
-        "current_location": 4,
         "password": "pbkdf2_sha256$20000$xfDY1KBthlRf$WfepGjdQZzMYk36GI9D79vyuZxhSncT9PRlbSg03VMI=",
-        "user_permissions": [],
-        "corrected_location": 13,
-        "nearest_city": 13,
-        "ug_institute_name": "DR MGR UNIVERSITY",
-        "pg_institute_name": "",
-        "preferred_location": [
-            3,
-            4,
-            9
-        ],
-        "email": "user7@mail.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "user7@mail.com",
+        "ug_course": "B.Tech/B.E.",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T15:35:42.301Z",
+        "pg_tier1": false,
+        "current_location": 4,
+        "pg_course": "none",
         "skills": [
             8,
             10,
@@ -1007,130 +995,131 @@
             67,
             68
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Tech/B.E.",
-        "current_employer": "open destinations infotech",
-        "is_superuser": false,
-        "username": "user7@mail.com",
-        "name": "N M Surname",
-        "mobile_number": "1234567895",
-        "pg_course": "none",
-        "pg_passing_year": null,
+        "ctc": "5.5",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "",
+        "nearest_city": 13,
+        "name": "N M Surname",
+        "is_superuser": false,
+        "ug_institute_name": "DR MGR UNIVERSITY",
+        "user_permissions": [],
+        "preferred_location": [
+            3,
+            4,
+            9
+        ],
         "ug_passing_year": 2009,
-        "is_staff": false
+        "mobile_number": 1234567895,
+        "email": "user7@mail.com",
+        "current_designation": "Senior Software Developer",
+        "current_employer": "open destinations infotech",
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T15:35:42.301Z",
+        "corrected_location": 13,
+        "work_experience": "5.08",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 7
 },
 {
-    "pk": 8,
     "fields": {
-        "is_active": true,
-        "ctc": "19.0",
-        "current_designation": "Technical Team Lead",
-        "work_experience": "11.00",
-        "current_location": 4,
         "password": "pbkdf2_sha256$20000$dYTJTqaXdBg8$U4vCydH93U7TRHse4sRVBkQDm1727Ai6nr520C49lqI=",
-        "user_permissions": [],
-        "corrected_location": 13,
-        "nearest_city": 13,
-        "ug_institute_name": "Fergusson College, Pune",
-        "pg_institute_name": "Noorul Isalm college of Engineering,MS university",
-        "preferred_location": [
-            4
-        ],
-        "email": "user8@mail.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "user8@mail.com",
+        "ug_course": "B.Sc",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T16:07:47.184Z",
+        "pg_tier1": false,
+        "current_location": 4,
+        "pg_course": "M.C.A",
         "skills": [
             8,
             13,
             67,
             68
         ],
-        "pg_tier1": false,
-        "ug_course": "B.Sc",
-        "current_employer": "Thomson Reuters India Pvt Limited",
-        "is_superuser": false,
-        "username": "user8@mail.com",
-        "name": "Name Surname",
-        "mobile_number": "1234567893",
-        "pg_course": "M.C.A",
-        "pg_passing_year": 2003,
+        "ctc": "19.0",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "Noorul Isalm college of Engineering,MS university",
+        "nearest_city": 13,
+        "name": "Name Surname",
+        "is_superuser": false,
+        "ug_institute_name": "Fergusson College, Pune",
+        "user_permissions": [],
+        "preferred_location": [
+            4
+        ],
         "ug_passing_year": 1999,
-        "is_staff": false
+        "mobile_number": 1234567893,
+        "email": "user8@mail.com",
+        "current_designation": "Technical Team Lead",
+        "current_employer": "Thomson Reuters India Pvt Limited",
+        "pg_passing_year": 2003,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T16:07:47.184Z",
+        "corrected_location": 13,
+        "work_experience": "11.00",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 8
 },
 {
-    "pk": 9,
     "fields": {
-        "is_active": true,
-        "ctc": "0.0",
-        "current_designation": "",
-        "work_experience": "0.00",
-        "current_location": 14,
         "password": "pbkdf2_sha256$20000$xwCQFpmcppdz$XMZQ1BoEqWnAK3kECVKgowr07e2NKcX/QWn5a+SJoio=",
-        "user_permissions": [],
-        "corrected_location": 14,
-        "nearest_city": 5,
-        "ug_institute_name": "",
+        "groups": [],
+        "is_staff": false,
+        "last_login": null,
+        "username": "user9@mail.com",
+        "ug_course": "B.Tech/B.E.",
+        "user_type": "candidate",
+        "pg_tier1": false,
+        "current_location": 14,
+        "pg_course": "none",
+        "skills": [],
+        "ctc": "0.0",
+        "resume": true,
         "pg_institute_name": "",
+        "nearest_city": 5,
+        "name": "Name Surname",
+        "is_superuser": false,
+        "ug_institute_name": "",
+        "user_permissions": [],
         "preferred_location": [
             4,
             5,
             9
         ],
-        "email": "user9@mail.com",
-        "groups": [],
-        "last_login": null,
-        "user_type": "candidate",
-        "date_joined": "2016-05-29T16:12:42.935Z",
-        "skills": [],
-        "pg_tier1": false,
-        "ug_course": "B.Tech/B.E.",
-        "current_employer": "",
-        "is_superuser": false,
-        "username": "user9@mail.com",
-        "name": "Name Surname",
-        "mobile_number": "1234567891",
-        "pg_course": "none",
-        "pg_passing_year": null,
-        "resume": true,
-        "ug_tier1": false,
         "ug_passing_year": null,
-        "is_staff": false
+        "mobile_number": 1234567891,
+        "email": "user9@mail.com",
+        "current_designation": "",
+        "current_employer": "",
+        "pg_passing_year": null,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T16:12:42.935Z",
+        "corrected_location": 14,
+        "work_experience": "0.00",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 9
 },
 {
-    "pk": 10,
     "fields": {
-        "is_active": true,
-        "ctc": "14.0",
-        "current_designation": "Solution Architect",
-        "work_experience": "9.00",
-        "current_location": 2,
         "password": "pbkdf2_sha256$20000$dczWqazyAEn5$BH5fhZZZbhvkHDzpOGixLJyDpgOx0/BE3NArn+gnY3M=",
-        "user_permissions": [],
-        "corrected_location": 2,
-        "nearest_city": 2,
-        "ug_institute_name": "Institue of Management Edu, Sahibabad(U.P.)",
-        "pg_institute_name": "Centre for Development of Advanced Computing (CDAC)",
-        "preferred_location": [
-            10,
-            11
-        ],
-        "email": "user10@mail.com",
         "groups": [],
+        "is_staff": false,
         "last_login": null,
+        "username": "user10@mail.com",
+        "ug_course": "B.C.A",
         "user_type": "candidate",
-        "date_joined": "2016-05-29T16:17:04.404Z",
+        "pg_tier1": false,
+        "current_location": 2,
+        "pg_course": "M.C.A",
         "skills": [
             8,
             10,
@@ -1148,20 +1137,31 @@
             73,
             74
         ],
-        "pg_tier1": false,
-        "ug_course": "B.C.A",
-        "current_employer": "Ericsson India Global Services Pvt. Ltd.",
-        "is_superuser": false,
-        "username": "user10@mail.com",
-        "name": "Name Surname",
-        "mobile_number": "1234567894",
-        "pg_course": "M.C.A",
-        "pg_passing_year": 2005,
+        "ctc": "14.0",
         "resume": true,
-        "ug_tier1": false,
+        "pg_institute_name": "Centre for Development of Advanced Computing (CDAC)",
+        "nearest_city": 2,
+        "name": "Name Surname",
+        "is_superuser": false,
+        "ug_institute_name": "Institue of Management Edu, Sahibabad(U.P.)",
+        "user_permissions": [],
+        "preferred_location": [
+            10,
+            11
+        ],
         "ug_passing_year": 2002,
-        "is_staff": false
+        "mobile_number": 1234567894,
+        "email": "user10@mail.com",
+        "current_designation": "Solution Architect",
+        "current_employer": "Ericsson India Global Services Pvt. Ltd.",
+        "pg_passing_year": 2005,
+        "ug_tier1": false,
+        "date_joined": "2016-05-29T16:17:04.404Z",
+        "corrected_location": 2,
+        "work_experience": "9.00",
+        "is_active": true
     },
-    "model": "users.user"
+    "model": "users.user",
+    "pk": 10
 }
 ]
