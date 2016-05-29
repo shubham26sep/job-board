@@ -14,8 +14,8 @@
     </tr>
 	{% for obj in candidate_list %}
 	    <tr>
-	    <td><a href="/users/{{ obj.id }}/">{{ obj.id }}</a></td>
-	    <td>{{ obj.name }}</td>
+	    <td>{{ obj.id }}</td>
+	    <td><a href="/users/{{ obj.id }}/">{{ obj.name }}</a></td>
 	    <td>{% if obj.mobile_number %} {{ obj.mobile_number }} {% else %}  NA {% endif %}</td>
 	    <td>{{ obj.email }}</td>
 	    <td>{{ obj.work_experience }}</td>
