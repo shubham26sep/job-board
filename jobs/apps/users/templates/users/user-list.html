@@ -1,0 +1,36 @@
+{% extends "admin_base.html" %}
+{% block content %}
+    <h3>List of Users</h3>
+    <table border="1" width="80%">
+    <tr>
+    <th>Serial No</th>
+    <th>Full Name</th>
+    <th>Mobile No.</th>
+    <th>Email</th>
+    <th>Work Experience</th>
+    <th>Current Location</th>
+    <th>Corrected Location</th>
+    <th>Nearest City</th>
+    <th>User Type</th>
+    <th>Actions</th>
+    </tr>
+	{% for obj in user_list %}
+	    <tr>
+	    <td>{{ obj.id }}</td>
+	    <td><a href="/users/{{ obj.id }}/">{{ obj.name }}</a></td>
+	    <td>{% if obj.mobile_number %} {{ obj.mobile_number }} {% else %}  NA {% endif %}</td>
+	    <td>{{ obj.email }}</td>
+	    <td>{{ obj.work_experience }}</td>
+	    <td>{{ obj.current_location }}</td>
+	    <td>{{ obj.corrected_location }}</td>
+	    <td>{{ obj.nearest_city }}</td>
+	    <td>{{ obj.get_user_type_display }}</td>	
+	    <td>
+	    	<a href="/users/{{ obj.id }}/edit/">Edit</a>
+            <a href="/users/{{ obj.id }}/delete/">Delete</a>
+	    </td>
+	    </tr>
+
+	{% endfor %}
+	</table>
+{% endblock %}

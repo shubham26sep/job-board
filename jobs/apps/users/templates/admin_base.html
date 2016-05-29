@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Board</title>
+<link href="/static/home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header>
+<ul>
+  <li><a href="{%url 'users:user-list' %}">Home</a></li>
+  <li><a href="{%url 'users:users_add' %}">Add user</a></li>
+  <li style="float:right"><a class="active" href="{% url 'users:logout' %}">Logout</a></li>
+  <li style="float:right"><a class="active" href="{% url 'users:update-profile' %}">{{ request.user.email }}</a></li>
+  
+</ul>
+</header>
+</body>
+{% block content %}
+{% endblock %}
+</html>

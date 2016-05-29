@@ -1,0 +1,72 @@
+{% extends base_template %}
+    {% block content %}
+    <h3>User Detail</h3>
+    <table style="border: 1px solid; width:50%; ">
+    <tr>
+        <td><b>Name:</b></td> <td> {{ user.name }}</td>
+    </tr>
+    <tr>
+        <td><b>Email:</b></td> <td> {{ user.email }}</td>
+    </tr>
+    <tr>
+        <td><b>Mobile Number:</b></td> <td> {{ user.mobile_number }}</td>
+    </tr>
+    <tr>
+        <td><b>User Type:</b></td> <td> {{ user.get_user_type_display }}</td>
+    </tr>
+    <tr>
+        <td><b>Work Experience:</b></td> <td> {{ user.work_experience }}</td>
+    </tr>
+    <tr>
+        <td><b>Resume:</b></td> <td>{% if user.resume %} Yes {% else %} No {% endif %}</td>
+    </tr>
+    <tr>
+        <td><b>Current Location:</b></td> <td>{% if user.current_location %} {{ user.current_location }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>Corrected Location:</b></td> <td> {% if user.corrected_location %} {{ user.corrected_location }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>Nearest City:</b></td> <td>{% if user.nearest_city %} {{ user.nearest_city }} {% else %} NA {% endif %}</td>
+    </tr>
+    <tr>
+        <td><b>Preferred Location:</b></td> <td> {% if user.preferred_location %} {% for loc in user.preferred_location.all %} {% if forloop.last %} {{ loc.location }} {% else %} {{ loc.location }}, {% endif %} {% endfor %} {% else %} NA {% endif %}</td>
+    </tr>
+    <tr>
+        <td><b>CTC:</b></td> <td> {% if user.ctc %} {{ user.ctc }} lpa {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>Current Designation:</b></td> <td> {% if user.current_designation %} {{ user.current_designation }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>Current Employer:</b></td> <td> {% if user.current_employer %} {{ user.current_employer }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>Skills:</b></td> <td> {% for skill in user.skills.all %} {% if forloop.last %} {{ skill.name }} {% else %} {{ skill.name }}, {% endif %} {% empty %} NA {% endfor %}</td>
+    </tr>
+    <tr>
+        <td><b>UG Course:</b></td> <td> {% if user.ug_course %} {{ user.get_ug_course_display }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>UG Institute Name</b></td> <td> {% if user.ug_institute_name %} {{ user.ug_institute_name }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>UG Tier 1:</b></td> <td> {% if user.ug_tier1 %} Yes {% else %} No {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>UG Passing Year:</b></td> <td> {% if user.ug_passing_year %} {{ user.ug_passing_year }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>PG Course:</b></td> <td> {% if user.pg_course %} {{ user.get_pg_course_display }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>PG Institute Name</b></td> <td> {% if user.pg_institute_name %} {{ user.pg_institute_name }} {% else %} NA {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>PG Tier 1:</b></td> <td> {% if user.pg_tier1 %} Yes {% else %} No {% endif %} </td>
+    </tr>
+    <tr>
+        <td><b>PG Passing Year:</b></td> <td> {% if user.pg_passing_year %} {{ user.pg_passing_year }} {% else %} NA {% endif %} </td>
+    </tr>
+    </table><br>
+    {% endblock %}

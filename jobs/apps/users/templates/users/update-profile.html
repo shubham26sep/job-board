@@ -1,0 +1,17 @@
+{% extends base_template %}
+{% block content %}
+	<br><br>
+	<form id="update_profile_form" method="post">
+		{% csrf_token %}
+		Name: {{ form.name }} {{ form.name.errors }}<br><br>
+		Email: {{ form.email }} {{ form.email.errors }}<br><br>
+		Password: {{ form.password }} {{ form.password.errors }}<br><br>
+		Confirm Password: {{ form.confirm_password }} {{ form.confirm_password.errors }}<br><br>
+	    <input type="submit" value="Update" />
+	{% if base_template == "admin_base.html" %}
+	<button type="button" onclick="window.location.replace('/users/')">Cancel</button>
+	{% elif base_template == "recruiter_base.html" %}
+	<button type="button" onclick="window.location.replace('/filter-candidates/')">Cancel</button>
+	{% endif %}
+	</form>
+{% endblock %}

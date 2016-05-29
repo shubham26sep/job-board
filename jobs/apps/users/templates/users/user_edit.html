@@ -1,0 +1,33 @@
+{% extends "admin_base.html" %}
+{% block content %}
+    <br><br>
+	<form id="edit_user_form" method="post">
+		{% csrf_token %}
+		Name: {{ form.name }} {{ form.name.errors }}<br><br>
+		Mobile Number: {{ form.mobile_number }} {{ form.mobile_number.errors }}<br><br>
+		Email: {{ form.email }} {{ form.email.errors }}<br><br>
+		User Type: {{ form.user_type }} {{ form.user_type.errors }}<br><br>
+		Resume: {{ form.resume }} {{ form.resume.errors }}<br><br>
+		Work Experience : {{ form.work_experience}} {{ form.work_experience.errors }}<br><br>
+		Current City: {{ form.current_location }} {{ form.current_location.errors }}<br><br>
+		Corrected City: {{ form.corrected_location }} {{ form.corrected_location.errors }}<br><br>
+		Nearest City: {{ form.nearest_city }} {{ form.nearest_city.errors }}<br><br>
+		Preferred Location: {{ form.preferred_location }} {{ form.preferred_location.errors }}<br><br>
+		CTC: {{ form.ctc }} {{ form.ctc.errors }}<br><br>
+		Current Designation: {{ form.current_designation }} {{ form.current_deignation.errors }}<br><br>
+		Current Employer: {{ form.current_employer }} {{ form.current_employer.errors }}<br><br>
+		Skills: {{ form.skills }} {{ form.skills.errors }}<br><br>
+		UG Course: {{ form.ug_course }} {{ form.ug_course.errors }}<br><br>
+		UG Institute Name: {{ form.ug_institute_name }} {{ form.ug_institute_name.errors }}<br><br
+		>
+		UG Tier1: {{ form.ug_tier1 }} {{ form.ug_tier1.errors }}<br><br>
+		UG Passing Year {{ form.ug_passing_year }} {{ form.ug_passing_year.errors }}<br><br>
+		PG Course: {{ form.pg_course }} {{ form.pg_course.errors }}<br><br>
+		PG Institute Name: {{ form.pg_institute_name }} {{ form.pg_institute_name.errors }}<br><br
+		>
+		PG Tier1: {{ form.pg_tier1 }} {{ form.pg_tier1.errors }}<br><br>
+		PG Passing Year {{ form.pg_passing_year }} {{ form.pg_passing_year.errors }}<br><br>
+	    <input type="submit" value="Submit" />
+		<button type="button" onclick="window.location.replace('/users/')">Cancel</button>
+	</form>
+{% endblock %}

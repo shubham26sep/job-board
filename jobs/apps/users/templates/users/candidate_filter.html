@@ -1,0 +1,12 @@
+{% extends "recruiter_base.html" %}
+{% block content %}
+    <br><br>
+	<form id="filter_candidate_form" method="post">
+		{% csrf_token %}
+		Preferred Location: {{ form.preferred_location }} {{ form.preferred_location.errors }}<br><br>
+		Work Experience: &nbsp;&nbsp;&nbsp;{{ form.work_experience }} {{ form.work_experience.errors }}<br><br>
+		Skills: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ form.skills }} {{ form.skills.errors }}<br><br>
+	    <input type="submit" value="Submit" />
+	</form>
+</body>
+{% endblock %}

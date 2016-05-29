@@ -1,0 +1,31 @@
+{% extends "recruiter_base.html" %}
+{% block content %}
+    <h3>List of Candidates</h3>
+    <table border="1" width="80%">
+    <tr>
+    <th>Serial No</th>
+    <th>Full Name</th>
+    <th>Mobile No.</th>
+    <th>Email</th>
+    <th>Work Experience</th>
+    <th>Skills</th>
+    <th>Preferred Location</th>
+    <th>Actions</th>
+    </tr>
+	{% for obj in candidate_list %}
+	    <tr>
+	    <td><a href="/users/{{ obj.id }}/">{{ obj.id }}</a></td>
+	    <td>{{ obj.name }}</td>
+	    <td>{% if obj.mobile_number %} {{ obj.mobile_number }} {% else %}  NA {% endif %}</td>
+	    <td>{{ obj.email }}</td>
+	    <td>{{ obj.work_experience }}</td>
+	    <td>{% for skill in obj.skills.all %} {% if forloop.last %} {{ skill.name }} {% else %} {{ skill.name }}, {% endif %} {% empty %} NA {% endfor %}</td>
+	    <td>{% for loc in obj.preferred_location.all %} {% if forloop.last %} {{ loc.location }} {% else %} {{ loc.location }}, {% endif %} {% empty %} NA {% endfor %}</td>
+	    <td>
+	    	<a href="/users/{{ obj.id }}/">Detail</a>
+	    </td>
+	    </tr>
+
+	{% endfor %}
+	</table>
+{% endblock %}
