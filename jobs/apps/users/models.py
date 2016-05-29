@@ -70,9 +70,8 @@ class User(AbstractBaseUser, PermissionsMixin):
         help_text=_('Designates whether this user should be treated as '
                     'active.  Unselect this instead of deleting accounts.'))
     date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
-    # serial_number = models.PositiveIntegerField(_('serial_number'), null=True, blank=True)
     resume = models.BooleanField(default=False)
-    mobile_number = models.CharField(_('mobile number'), max_length=15, null=True, blank=True)
+    mobile_number = models.PositiveIntegerField(_('mobile number'), max_length=10, null=True, blank=True)
     work_experience = models.DecimalField(max_digits=4, decimal_places=2, null=True, blank=True)
     current_location = models.ForeignKey(Location, related_name="current_location", null=True, blank=True)
     corrected_location = models.ForeignKey(Location, related_name="corrected_location", null=True, blank=True)
