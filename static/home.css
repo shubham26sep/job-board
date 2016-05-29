@@ -1,0 +1,99 @@
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+/* list elements style edit */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+
+
+.lif{ float: left;
+ }
+.lia{ 
+    
+    color: black;
+    text-align: left;
+    padding:  5px 5px;
+    text-decoration: none;}
+
+}
+.active {
+    background-color: #4CAF50;
+}
+
+/* links styling */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFCC00;
+    text-decoration: underline;
+}
+
+
+/* This unit for table elements */
+
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table {	
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+	height: 10px;
+    text-align: left;
+    color:white;
+    background-color: Black; 
+}
+td {
+    text-align: center;
+    padding: 2px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color: #f5f5f5}
+
+div {
+    width: 1300px;
+  border: 1px solid #73AD21;
+} 
