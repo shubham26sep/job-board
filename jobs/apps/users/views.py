@@ -59,10 +59,17 @@ class UserAdd(AdminPermissionMixin, generic.CreateView):
 
     def form_valid(self, form):
         password = form.cleaned_data.pop('password')
+        locations = form.cleaned_data.pop('preferred_location')
+        selected_skills = form.cleaned_data.pop('skills')
         instance = form.save(commit=False)
         if password != "":
             instance.set_password(password)
         instance.username = instance.email
+        instance.save()
+        for loc in locations:
+            instance.preferred_location.add(loc)
+        for skill in selected_skills:
+            instance.skills.add(skill)
         instance.save()
         return HttpResponseRedirect(reverse('users:user-list'))
 
