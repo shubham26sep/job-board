@@ -1,6 +1,7 @@
 {% extends "recruiter_base.html" %}
 {% block content %}
     <h3>List of Candidates</h3>
+    <a href="{% url 'users:export_candidate_data' %}">Download CSV</a><br><br>
     <table border="1" width="80%">
     <tr>
     <th>Serial No</th>
