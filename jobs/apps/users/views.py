@@ -1,9 +1,11 @@
+import csv
 from django.views import generic
 from django.core.urlresolvers import reverse
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib import auth
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 
 from jobs.apps.users.models import User
 from jobs.apps.users.forms import AddUserForm, LoginForm, UpdateProfileForm, EditUserForm, CandidateFilterForm
@@ -156,14 +158,18 @@ class CandidateView(RecruiterPermissionMixin, generic.ListView):
 
     def get_queryset(self):
         queryset = User.objects.filter(user_type='candidate')
+
         if 'preferred_location' in self.request.session:
             locations = self.request.session['preferred_location']
-            queryset = queryset.filter(preferred_location__location__in=locations).distinct()
+            if locations:
+                queryset = queryset.filter(preferred_location__location__in=locations).distinct()
             del locations
         if 'skills' in self.request.session:
             skills = self.request.session['skills']
-            queryset = queryset.filter(skills__name__in=skills).distinct()
+            if skills:
+                queryset =  queryset.filter(skills__name__in=skills).distinct()
             del skills
+
         if 'work_experience' in self.request.session:
             experience = self.request.session['work_experience']
             if experience == '0-2':
@@ -186,4 +192,53 @@ class CandidateView(RecruiterPermissionMixin, generic.ListView):
                 queryset = queryset.filter(work_experience__gte=16)
             del experience
 
+        self.request.session['candidate_data'] = list(queryset.values_list('id', flat=True))
+
         return queryset
+
+
+@login_required
+def export_candidate_data(request):
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="Candidate.csv"'
+    fields = ['Serial No', 'Full Name', 'Email', 'Mobile No.', 'Work Experience', 'Resume', 
+    'Current Location', 'Corrected Location', 'Nearest City', 'Preferred Location', 'CTC', 
+    'Current Designation', 'Current Employer', 'Skills', 'UG Course', 'UG Institute Name',
+    'UG Tier 1', 'UG Passing Year', 'PG Course', 'PG Institute Name', 'PG Tier 1', 'PG Passing Year']
+    fieldnames = fields 
+    writer = csv.DictWriter(response, fieldnames=fieldnames)
+
+    writer.writeheader()
+    if 'candidate_data' in request.session:
+        candidate_data = request.session['candidate_data']
+        for user_id in candidate_data:
+            data = dict()
+            user = User.objects.get(id=user_id)
+            if user.resume:
+                resume = 'Yes'
+            else:
+                resume = 'No'
+
+            if user.ug_tier1:
+                ug_tier1 = 'Y'
+            else:
+                ug_tier1 = 'N'
+
+            if user.pg_tier1:
+                pg_tier1 = 'Y'
+            else:
+                pg_tier1 = 'N'
+
+            preferred_location = ','.join(list(user.preferred_location.all().values_list('location', flat=True)))
+            skills = ','.join(list(user.skills.all().values_list('name', flat=True)))
+            res = [user.id, user.name, user.email, user.mobile_number, user.work_experience, 
+            resume, user.current_location, user.corrected_location, user.nearest_city,
+            preferred_location, user.ctc, user.current_designation, user.current_employer,
+            skills, user.ug_course, user.ug_institute_name, ug_tier1, user.ug_passing_year,
+            user.pg_course, user.pg_institute_name, pg_tier1, user.pg_passing_year]
+            for i in range(len(fields)):
+                data.update({fields[i]: res[i]})
+
+            writer.writerow(data)
+
+    return response
